@@ -84,7 +84,7 @@ else
 fi
 
 
-#
+# This package will be required to install psycopg2 package of Python
 dpkg -l | grep "postgresql-server-dev-all"
 if [ $? == 0 ]
 then
